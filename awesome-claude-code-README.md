@@ -209,8 +209,8 @@ git checkout -b feature/my-feature
 
 > ⚠️ Always check the publish date — Claude Code updates frequently.
 
-- [Claude Code Overview](https://www.youtube.com/watch?v=PLACEHOLDER) — Official intro from Anthropic. `(TODO: replace with real link)`
-- [Building with MCP](https://www.youtube.com/watch?v=PLACEHOLDER) — How to add MCP servers to your workflow. `(TODO: replace with real link)`
+- [Mastering Claude Code — Complete Visual Breakdown](https://www.youtube.com/watch?v=uFO9EAPINWo) — Community tutorial covering Claude Code concepts with visual breakdowns.
+- [Building with MCP and the Claude API](https://www.youtube.com/watch?v=aZLr962R6Ag) — Anthropic team members discuss MCP origins and integration with Claude Code. `(Official)`
 
 > **Contribute:** Know a great tutorial? Open a PR.
 
