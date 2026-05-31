@@ -46,29 +46,29 @@
 
 ### Data & Storage
 
-- [PostgreSQL](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - Read-only PostgreSQL database access.
-- [SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) - Query and inspect SQLite databases.
+- [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) - Read-only PostgreSQL database access.
+- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) - Query and inspect SQLite databases.
 - [Supabase](https://github.com/supabase-community/supabase-mcp) - Full Supabase integration: database, auth, storage.
 
 ### Search & Knowledge
 
-- [Brave Search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web and local search via the Brave Search API.
+- [Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) - Web and local search via the Brave Search API.
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetch web content and convert it to Markdown.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Persistent knowledge graph memory across sessions.
 - [Context7](https://github.com/upstash/context7) - Always up-to-date library docs injected into context.
 
 ### Productivity & Collaboration
 
-- [Slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - Read channels, send messages, manage Slack workspaces.
-- [Google Drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) - Search and read Google Drive files.
-- [Linear](https://github.com/linear/linear-mcp-server) - Manage Linear issues, projects, and cycles.
-- [Figma](https://github.com/figma/figma-mcp) - Read Figma designs, extract components and styles.
+- [Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) - Read channels, send messages, manage Slack workspaces.
+- [Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) - Search and read Google Drive files.
+- [Linear](https://github.com/jerhadf/linear-mcp-server) - Manage Linear issues, projects, and cycles.
+- [Figma](https://github.com/GLips/Figma-Context-MCP) - Read Figma designs, extract components and styles.
 
 ## Skills & Slash Commands
 
 > Community-built skills (slash commands) that extend Claude Code's built-in capabilities.
 
-- [Superpowers](https://github.com/anthropics/claude-code-skills) - Official skill plugin system with brainstorming, TDD, debugging, and code review workflows. `(Official)`
+- [Superpowers](https://github.com/anthropics/skills) - Official skill plugin system with brainstorming, TDD, debugging, and code review workflows. `(Official)`
 - [TDD Workflow](https://docs.anthropic.com/en/docs/claude-code/skills) - Red-green-refactor cycle enforced via skill.
 - [Systematic Debugging](https://docs.anthropic.com/en/docs/claude-code/skills) - Structured debugging flow: reproduce → isolate → fix → verify.
 - [Code Review](https://docs.anthropic.com/en/docs/claude-code/skills) - Automated code review at configurable effort levels (low/medium/high/ultra).
@@ -191,8 +191,8 @@ git checkout -b feature/my-feature
 > Build custom subagents and multi-agent pipelines with the Claude Code Agent SDK.
 
 - [Agent SDK Docs](https://docs.anthropic.com/en/docs/claude-code/sdk) - Official SDK documentation.
-- [Python Agent SDK](https://github.com/anthropics/claude-code-sdk-python) - Python SDK for building agents.
-- [TypeScript Agent SDK](https://github.com/anthropics/claude-code-sdk-typescript) - TypeScript SDK for building agents.
+- [Python Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Python SDK for building agents.
+- [TypeScript Agent SDK](https://github.com/anthropics/claude-agent-sdk-typescript) - TypeScript SDK for building agents.
 
 **Use cases:**
 - Parallel subagents for independent tasks (research + implementation simultaneously).
@@ -201,7 +201,7 @@ git checkout -b feature/my-feature
 
 ## Tools & Utilities
 
-- [RTK (Rust Token Killer)](https://github.com/changyou0730/rtk) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations. `(Community)`
+- RTK (Rust Token Killer) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations. *(Repo not yet public)* `(Community)`
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.
 
