@@ -1,0 +1,6 @@
+# 本地自用文件，不进远程仓库
+OPERATIONS.md
+INBOX.md
+
+# macOS
+.DS_Store
