@@ -19,6 +19,7 @@
 - [Agent SDK](#agent-sdk)
 - [Tools & Utilities](#tools--utilities)
 - [Tutorials & Videos](#tutorials--videos)
+- [Articles & Deep Dives / 中文深度文章](#articles--deep-dives--中文深度文章)
 - [Community](#community)
 
 ---
@@ -213,6 +214,41 @@ git checkout -b feature/my-feature
 - [Building with MCP and the Claude API](https://www.youtube.com/watch?v=aZLr962R6Ag) — Anthropic team members discuss MCP origins and integration with Claude Code. `(Official)`
 
 > **Contribute:** Know a great tutorial? Open a PR.
+
+## Articles & Deep Dives / 中文深度文章
+
+> 中文社区里值得一读的 Claude Code 深度文章，按主题归类。目前来源为 [mufeng.blog](https://mufeng.blog)，欢迎 PR 补充其他博客。
+
+### 入门 / 概览
+
+- [如果你还没用 Claude Code，可能已经落后一个时代](https://mufeng.blog/article/claude-code-is-the-most-underrated-ai-tool) — 面向新手的 Claude Code 价值与定位介绍。 `(Chinese)`
+- [Claude Code 从 0 到 1 全攻略](https://mufeng.blog/article/how-ai-is-rebuilding-the-way-we-work-and-think) — 从安装到上手的完整入门流程。 `(Chinese)`
+- [Claude Code 使用洞察：第一个月 /insight 真实案例](https://mufeng.blog/article/claude-code-insights-report-and-ai-workflow-analysis) — 用 /insight 复盘真实使用数据与协作模式。 `(Chinese)`
+
+### CLAUDE.md & 权限配置
+
+- [CLAUDE.md 完全指南](https://mufeng.blog/article/claude-md-guide-for-claude-code-project-memory) — 如何用 CLAUDE.md 给项目设定持久规则与上下文。 `(Chinese)`
+- [权限配置完全指南](https://mufeng.blog/article/claude-code-permissions-settings-guide) — settings.json 中 allow/deny 权限的配置方法。 `(Chinese)`
+- [权限模式完全指南：Auto / Bypass / Ask](https://mufeng.blog/article/claude-code-permission-modes) — 三种权限模式的区别与适用场景。 `(Chinese)`
+- [文件过滤完全指南：.claudeignore 到 permissions.deny](https://mufeng.blog/article/claude-code-claudeignore-file-filtering-guide) — 控制 Claude 可访问文件范围的几种机制。 `(Chinese)`
+
+### Skills & 工作流
+
+- [Claude Skill 官方指南](https://mufeng.blog/article/anthropic-claude-skill-guide-and-best-practices) — 把提示词沉淀为可复用 Skill 的官方做法。 `(Chinese)`
+- [Claude Code Skills 深度解析：SKILL.md 结构](https://mufeng.blog/article/claude-code-skills-guide-skill-md-structure) — 拆解 SKILL.md 的结构与编写要点。 `(Chinese)`
+- [Superpowers：让 Claude Code 和 Codex 按工程流程开发](https://mufeng.blog/article/superpowers-skill-claude-codex-workflow) — 用 Superpowers 插件把 AI 编程纳入规范流程。 `(Chinese)`
+- [Claude Code + Obsidian + NotebookLM 研究系统](https://mufeng.blog/article/claude-code-obsidian-notebooklm-ai-research-system) — 三者组合搭建可自我迭代的 AI 研究工作流。 `(Chinese)`
+
+### 源码与架构
+
+- [Claude Code 源码泄露：架构深度解构](https://mufeng.blog/article/claude-code-source-code-leaked) — 从泄露源码分析 Claude Code 的整体架构。 `(Chinese)`
+- [Claude Code 深度解析：从终端 Agent 到一人工程团队](https://mufeng.blog/article/claude-code-deep-dive) — 解析其如何支撑单人完成完整工程流程。 `(Chinese)`
+- [你的 AI Agent 跑不好，根本不是模型的问题](https://mufeng.blog/article/harness-engineering-ai-agent) — 从 harness 工程角度分析 Agent 表现的决定因素。 `(Chinese)`
+
+### 技巧 & 工具
+
+- [Claude Code 常用快捷键](https://mufeng.blog/article/claude-code-shortcuts-and-terminal-workflow-guide) — 终端内常用快捷键与操作流。 `(Chinese)`
+- [Claude Code Token 消耗太高？RTK 帮你省下 9 成](https://mufeng.blog/article/claude-code-token-rtk-89-percent) — 用 RTK 代理过滤工具输出、降低 token 消耗。 `(Chinese)`
 
 ## Community
 
