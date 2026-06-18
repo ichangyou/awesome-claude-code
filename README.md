@@ -202,6 +202,7 @@ git checkout -b feature/my-feature
 
 ## Tools & Utilities
 
+- [Agent Island](https://github.com/tristan666666/agent-island) — macOS notch companion for Claude/Codex sessions with live state display and auto-resume for selected long-running runs
 - RTK (Rust Token Killer) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations. *(Repo not yet public)* `(Community)`
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.
