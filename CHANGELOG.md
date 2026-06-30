@@ -5,6 +5,19 @@
 
 ---
 
+## 2026-W26 (截至 2026-06-30)
+
+### 新增
+- [Tools & Utilities] [Hephaestus](https://github.com/agentlas-ai/Hephaestus) — Local agent runtime and Claude Code marketplace for packaging skills, commands, and MCP-aware agent workflows. `(Community)`
+
+### 更新 / 修正
+- 无。
+
+### 本周学习随记
+- Claude Code 工具生态正在从单个 MCP/skill 扩展到可组合的本地 agent runtime。
+
+---
+
 ## 2026-W25 (截至 2026-06-21)
 
 ### 新增
