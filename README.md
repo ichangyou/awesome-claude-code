@@ -203,6 +203,7 @@ git checkout -b feature/my-feature
 ## Tools & Utilities
 
 - RTK (Rust Token Killer) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations. *(Repo not yet public)* `(Community)`
+- [ax](https://github.com/Necmttn/ax) — Local telemetry and recall graph for Claude Code sessions, tool calls, skills, and costs
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.
 
