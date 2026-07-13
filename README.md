@@ -75,6 +75,8 @@
 - [Code Review](https://docs.anthropic.com/en/docs/claude-code/skills) - Automated code review at configurable effort levels (low/medium/high/ultra).
 - [Git Commit](https://docs.anthropic.com/en/docs/claude-code/skills) - Consistent commit messages following project conventions.
 
+- [claude-skills](https://github.com/redamancy231-create/claude-skills) — Claude Code 技能集合，含会话交接、项目文档生成、事前否决三个实战验证 Skill，提炼自50+轮跨模型独立审查
+
 > **Contribute your skill:** Open a PR with your skill repo link and a one-line description.
 
 ## Hooks & Automation
