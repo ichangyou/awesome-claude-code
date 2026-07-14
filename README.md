@@ -207,6 +207,7 @@ git checkout -b feature/my-feature
 - [ax](https://github.com/Necmttn/ax) — Local telemetry and recall graph for Claude Code sessions, tool calls, skills, and costs
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.
+- [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) — Exposes a restricted local Claude Code or automation as a keyed trusted-LAN capability for teammates and other agents
 
 ## Tutorials & Videos
 
