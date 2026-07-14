@@ -18,6 +18,7 @@
   - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 出品，把 AI 编程纳入工程流程（brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查）。`(Community)`
 
 ### 更新 / 修正
+- 语言拆分：README 从单页双语混排改为「双文件 + 顶部互链」——`README.md`（纯英文）与 `README.zh-CN.md`（纯中文），两份顶部各放 `English | 简体中文` 切换链接。GitHub README 不执行 JS，无法做原地页签，双文件互链是可用的等效方案。
 - 修正 Superpowers 条目：原链接误指向 `anthropics/skills` 并标注 `(Official)`，实际为 Jesse Vincent（obra）的社区项目，已改为正确仓库 `obra/superpowers` 并改标 `(Community)`。
 - 关闭 PR #7（OpenAgentRelay）：作者自荐、仓库当天新建、0 star、Alpha 阶段，暂不符合收录标准；已记入 `INBOX.md` 待查观察。
 
