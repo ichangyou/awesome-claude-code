@@ -51,6 +51,7 @@ Agent SDK / Tools & Utilities / Tutorials & Videos / Community
 - 新增条目时：同时在 `CHANGELOG.md` 顶部加一条本周记录。
 - 修正失效链接、移除过期内容也要记进 `CHANGELOG.md` 的「更新 / 修正」。
 - 周中临时想到的素材先记 `INBOX.md`，不要直接塞进 README。
+- 提交前自查：确认 `INBOX.md`、`OPERATIONS.md` 未被 staged（二者是本地自用文件，已在 `.gitignore` 忽略）。避免用 `git add -A`/`git add .` 盲加；`.gitignore` 里这两行不要注释掉——一旦忽略失效被误提交，之后 `.gitignore` 也拦不住已跟踪的文件。
 
 ## 约束
 
