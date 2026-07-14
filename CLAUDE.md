@@ -5,7 +5,7 @@
 
 ## 项目性质
 
-- 这是一份 awesome-list，主清单是 `README.md`。
+- 这是一份 awesome-list，主清单是双语双文件：`README.md`（英文）与 `README.zh-CN.md`（中文），两份内容平行、顶部互链切换。
 - 核心属性：「记录 Claude Code 学习」，每周更新一次。
 - 运营流程见 `OPERATIONS.md`；周中暂存见 `INBOX.md`；更新记录见 `CHANGELOG.md`。
 
@@ -31,6 +31,14 @@ Agent SDK / Tools & Utilities / Tutorials & Videos / Community
 
 - MCP Servers 内部再分：Development / Data & Storage / Search & Knowledge / Productivity & Collaboration。
 - 不确定归到哪个分区时，先问，不要新建分区。
+
+## 双语双文件同步（强制）
+
+- 清单有两份平行文件：`README.md`（纯英文）与 `README.zh-CN.md`（纯中文）。**任何增删改都必须同时落到两份**，不允许只改一份。
+- 两份的分区、条目顺序、链接、标记（`(Official)` 等）必须一一对应；只有描述语言不同（英文 vs 中文）。
+- 顶部语言切换行不要动：`README.md` 顶部是 `**English** | [简体中文](README.zh-CN.md)`，`README.zh-CN.md` 顶部是 `[English](README.md) | **简体中文**`。
+- 「中文深度文章」区块：两份都保留；文章标题保持中文原样，英文版描述用英文并标 `(Chinese)`，中文版描述用中文。
+- GitHub README 不执行 JS，无法做原地页签，双文件互链是唯一可用的等效方案——不要尝试引入 JS/HTML 伪页签。
 
 ## 质量标准（不可妥协）
 
