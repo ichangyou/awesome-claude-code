@@ -13,7 +13,12 @@
   - [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel Geist 设计系统的真实范例。
   - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 各品牌 DESIGN.md 合集清单。
 
+- Skills & Slash Commands 分区新增 2 个开源技能集：
+  - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 出品，代表技能 `grill-me`（编码前反复追问对齐需求），另含 to-spec / tdd / code-review 等。`(Community)`
+  - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 出品，把 AI 编程纳入工程流程（brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查）。`(Community)`
+
 ### 更新 / 修正
+- 修正 Superpowers 条目：原链接误指向 `anthropics/skills` 并标注 `(Official)`，实际为 Jesse Vincent（obra）的社区项目，已改为正确仓库 `obra/superpowers` 并改标 `(Community)`。
 - 关闭 PR #7（OpenAgentRelay）：作者自荐、仓库当天新建、0 star、Alpha 阶段，暂不符合收录标准；已记入 `INBOX.md` 待查观察。
 
 ### 本周学习随记

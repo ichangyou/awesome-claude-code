@@ -70,7 +70,8 @@
 
 > Community-built skills (slash commands) that extend Claude Code's built-in capabilities.
 
-- [Superpowers](https://github.com/anthropics/skills) - Official skill plugin system with brainstorming, TDD, debugging, and code review workflows. `(Official)`
+- [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock's Claude Code skill collection; the `grill-me` skill interrogates you to align on intent before coding, alongside `to-spec`, `tdd`, `code-review`, and architecture skills. Install via `npx skills@latest add mattpocock/skills` or the plugin marketplace. `(Community)`
+- [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent's skills framework that runs AI coding through an engineering process: brainstorming, TDD, systematic debugging, plan writing, subagent-driven development, and code review. Installs via `/plugin install superpowers@claude-plugins-official`. `(Community)`
 - [TDD Workflow](https://docs.anthropic.com/en/docs/claude-code/skills) - Red-green-refactor cycle enforced via skill.
 - [Systematic Debugging](https://docs.anthropic.com/en/docs/claude-code/skills) - Structured debugging flow: reproduce → isolate → fix → verify.
 - [Code Review](https://docs.anthropic.com/en/docs/claude-code/skills) - Automated code review at configurable effort levels (low/medium/high/ultra).
