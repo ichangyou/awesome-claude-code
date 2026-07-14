@@ -13,6 +13,7 @@
 - [Skills & Slash Commands](#skills--slash-commands)
 - [Hooks & Automation](#hooks--automation)
 - [CLAUDE.md Templates](#claudemd-templates)
+- [DESIGN.md — Design Context for Agents](#designmd--design-context-for-agents)
 - [Prompting Guides](#prompting-guides)
 - [Workflows](#workflows)
 - [IDE Integrations](#ide-integrations)
@@ -126,6 +127,16 @@
 ## Gotchas           ← known footguns, things Claude often gets wrong
 ## Off-limits        ← never auto-commit, never modify X file
 ```
+
+## DESIGN.md — Design Context for Agents
+
+> `DESIGN.md` 之于设计系统，如同 `CLAUDE.md` 之于项目上下文：一份结构化文件，给编码 Agent 提供持久化的视觉规范（配色、字体、间距、组件、语气），让它生成的 UI 与你的设计系统一致。
+>
+> A structured file that gives coding agents a persistent understanding of a visual identity — so generated UI matches your design system.
+
+- [DESIGN.md Specification](https://github.com/google-labs-code/design.md) — The format spec by Google Labs: drop a `DESIGN.md` into your repo and agents build UI that follows your design system.
+- [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel's Geist design system published in `DESIGN.md` format — a real-world reference to study or adapt.
+- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — Curated collection of `DESIGN.md` files from popular brand design systems, ready to drop into a project.
 
 ## Prompting Guides
 

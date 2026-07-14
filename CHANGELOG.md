@@ -5,6 +5,22 @@
 
 ---
 
+## 2026-W29 (截至 2026-07-14)
+
+### 新增
+- 新增分区「DESIGN.md — Design Context for Agents」，收录 DESIGN.md（给编码 Agent 的持久化设计上下文）相关的 3 条资源：
+  - [DESIGN.md Specification](https://github.com/google-labs-code/design.md) — Google Labs 的格式规范本身。
+  - [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel Geist 设计系统的真实范例。
+  - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 各品牌 DESIGN.md 合集清单。
+
+### 更新 / 修正
+- 关闭 PR #7（OpenAgentRelay）：作者自荐、仓库当天新建、0 star、Alpha 阶段，暂不符合收录标准；已记入 `INBOX.md` 待查观察。
+
+### 本周学习随记
+- DESIGN.md 是 CLAUDE.md 的「设计版」——把设计系统写成 Agent 可读的持久化上下文，正在成为独立的资源品类。
+
+---
+
 ## 2026-W25 (截至 2026-06-21)
 
 ### 新增
