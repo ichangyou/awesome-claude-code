@@ -133,7 +133,7 @@
 > `DESIGN.md` 之于设计系统，如同 `CLAUDE.md` 之于项目上下文：一份结构化文件，给编码 Agent 提供持久化的视觉规范（配色、字体、间距、组件、语气），让它生成的 UI 与你的设计系统一致。
 
 - [DESIGN.md Specification](https://github.com/google-labs-code/design.md) — Google Labs 的格式规范：把 `DESIGN.md` 放进仓库，Agent 就按你的设计系统构建 UI。
-- [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel Geist 设计系统以 `DESIGN.md` 格式发布——可学习或改用的真实范例。
+- [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel Geist 设计系统以 `DESIGN.md` 格式发布——可学习或改用的真实范例。深色主题版本：[design.dark.md](https://vercel.com/design.dark.md)。
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 各知名品牌设计系统的 `DESIGN.md` 合集，可直接放进项目。
 
 ## 提示词指南

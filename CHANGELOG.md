@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W30 (截至 2026-07-21)
+
+### 更新 / 修正
+- Vercel Geist 条目补充深色主题文件地址 [design.dark.md](https://vercel.com/design.dark.md)：与 `/design.md` 同一套 token 名，只是深色取值，文档内自述「This is the Dark theme. The Light theme uses the same token names with different values and lives at `/design.md`」。因属同一设计系统的两个主题文件，并入现有条目而非新开一行。
+
+---
+
 ## 2026-W29 (截至 2026-07-14)
 
 ### 新增

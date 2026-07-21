@@ -133,7 +133,7 @@
 > `DESIGN.md` is to a design system what `CLAUDE.md` is to project context: a structured file that gives coding agents a persistent understanding of a visual identity (colors, type, spacing, components, tone) — so the UI they generate matches your design system.
 
 - [DESIGN.md Specification](https://github.com/google-labs-code/design.md) — The format spec by Google Labs: drop a `DESIGN.md` into your repo and agents build UI that follows your design system.
-- [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel's Geist design system published in `DESIGN.md` format — a real-world reference to study or adapt.
+- [Vercel Geist (DESIGN.md)](https://vercel.com/design.md) — Vercel's Geist design system published in `DESIGN.md` format — a real-world reference to study or adapt. Dark theme variant: [design.dark.md](https://vercel.com/design.dark.md).
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — Curated collection of `DESIGN.md` files from popular brand design systems, ready to drop into a project.
 
 ## Prompting Guides
