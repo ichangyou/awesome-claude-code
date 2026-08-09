@@ -5,6 +5,26 @@
 
 ---
 
+## 2026-W32 (截至 2026-08-09)
+
+> 补更：W31 断更一周，本次合并处理。本周主题是「补可信度」而非扩容——把 README 里违反自身 quality bar（每条必须有可点击有效链接、不收凑数条目）的地方清掉。
+
+### 新增
+- [Official Resources] [Claude Plugins Directory](https://github.com/anthropics/claude-plugins-official) — Anthropic 官方维护的插件目录。Superpowers 条目里早就写了 `/plugin install superpowers@claude-plugins-official`，但一直没链接到市场本身，补上。
+- [IDE Integrations] [claudecode.nvim](https://github.com/coder/claudecode.nvim) — Coder 出品的 Neovim 插件。原文写「社区插件 `claudecode.nvim`（见下方社区链接）」，但下方并不存在该链接，属于悬空引用，现补实。
+
+### 更新 / 修正
+- **RTK 条目补上仓库链接**：原条目标注「仓库尚未公开」，实际已开源在 [rtk-ai/rtk](https://github.com/rtk-ai/rtk)（Apache-2.0）。核实依据：该仓库 README 的 logo alt text 为 "RTK - Rust Token Killer"，`rtk gain` / `rtk discover` / `rtk proxy` 命令与本地在用版本一致，并同样带有与 crates.io 上另一个 "rtk"（Rust Type Kit）的重名警告。
+- **删除 Skills 分区 4 条凑数条目**（TDD Workflow / Systematic Debugging / Code Review / Git Commit）：4 条全部指向同一个通用文档页 `docs/claude-code/skills`，既非独立资源也无独立链接。改为一句说明，指明本分区只收录可安装的社区技能集，自带技能与 `SKILL.md` 写法见官方文档。
+- **「CLAUDE.md Templates」改名为「CLAUDE.md Essentials / CLAUDE.md 写法要点」**：原分区 4 条「模板」无任何链接，形式上伪装成收录条目，实为写法说明。改名并显式声明是写法指南、无物可装；目录锚点同步更新。
+- **5 个 MCP 条目标注停止维护**（PostgreSQL / SQLite / Brave Search / Slack / Google Drive）：均位于 `modelcontextprotocol/servers-archived`，该仓库 GitHub 状态为 archived、自述「Reference MCP servers that are no longer maintained」、最后 push 停在 2025-05-28。链接仍可访问，故保留条目但明确标注仅作参考实现。
+- **全量链接校验**：README 中 61 个 URL 逐个 curl 跟随重定向，60 个返回 200；唯一非 200 是 `reddit.com/r/ClaudeAI` 的 403（反爬拦截，浏览器正常访问），判定为有效，不作处理。本周无失效链接。
+
+### 本周学习随记
+- awesome-list 腐坏不是从死链开始的，是从「无链接的条目」开始的——死链至少能被脚本查出来，凑数条目只能靠人肉复查。以后新增时先问一句：这条有独立的、可点击的、指向它自己的链接吗？没有就不该长成条目的样子。
+
+---
+
 ## 2026-W30 (截至 2026-07-21)
 
 ### 更新 / 修正

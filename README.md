@@ -12,7 +12,7 @@
 - [MCP Servers](#mcp-servers)
 - [Skills & Slash Commands](#skills--slash-commands)
 - [Hooks & Automation](#hooks--automation)
-- [CLAUDE.md Templates](#claudemd-templates)
+- [CLAUDE.md Essentials](#claudemd-essentials)
 - [DESIGN.md — Design Context for Agents](#designmd--design-context-for-agents)
 - [Prompting Guides](#prompting-guides)
 - [Workflows](#workflows)
@@ -29,6 +29,7 @@
 
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview) — Official docs covering setup, features, and configuration.
 - [Claude Code Changelog](https://docs.anthropic.com/en/docs/claude-code/changelog) — Release notes and new feature announcements.
+- [Claude Plugins Directory](https://github.com/anthropics/claude-plugins-official) — Anthropic-managed directory of vetted Claude Code plugins; install with `/plugin install <name>@claude-plugins-official`.
 - [Model Context Protocol](https://modelcontextprotocol.io) — The open protocol powering Claude Code's MCP integrations.
 - [MCP Official Servers](https://github.com/modelcontextprotocol/servers) — Reference MCP server implementations by Anthropic.
 - [Claude Code Settings Reference](https://docs.anthropic.com/en/docs/claude-code/settings) — Full reference for `settings.json` configuration.
@@ -47,21 +48,21 @@
 
 ### Data & Storage
 
-- [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — Read-only PostgreSQL database access.
-- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — Query and inspect SQLite databases.
+- [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — Read-only PostgreSQL database access. No longer maintained — reference implementation only.
+- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — Query and inspect SQLite databases. No longer maintained — reference implementation only.
 - [Supabase](https://github.com/supabase-community/supabase-mcp) — Full Supabase integration: database, auth, storage.
 
 ### Search & Knowledge
 
-- [Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) — Web and local search via the Brave Search API.
+- [Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) — Web and local search via the Brave Search API. No longer maintained — reference implementation only.
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) — Fetch web content and convert it to Markdown.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) — Persistent knowledge graph memory across sessions.
 - [Context7](https://github.com/upstash/context7) — Always up-to-date library docs injected into context.
 
 ### Productivity & Collaboration
 
-- [Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) — Read channels, send messages, manage Slack workspaces.
-- [Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) — Search and read Google Drive files.
+- [Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) — Read channels, send messages, manage Slack workspaces. No longer maintained — reference implementation only.
+- [Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) — Search and read Google Drive files. No longer maintained — reference implementation only.
 - [Linear](https://github.com/jerhadf/linear-mcp-server) — Manage Linear issues, projects, and cycles.
 - [Figma](https://github.com/GLips/Figma-Context-MCP) — Read Figma designs, extract components and styles.
 
@@ -71,10 +72,8 @@
 
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock's Claude Code skill collection; the `grill-me` skill interrogates you to align on intent before coding, alongside `to-spec`, `tdd`, `code-review`, and architecture skills. Install via `npx skills@latest add mattpocock/skills` or the plugin marketplace. `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent's skills framework that runs AI coding through an engineering process: brainstorming, TDD, systematic debugging, plan writing, subagent-driven development, and code review. Installs via `/plugin install superpowers@claude-plugins-official`. `(Community)`
-- [TDD Workflow](https://docs.anthropic.com/en/docs/claude-code/skills) — Red-green-refactor cycle enforced via skill.
-- [Systematic Debugging](https://docs.anthropic.com/en/docs/claude-code/skills) — Structured debugging flow: reproduce → isolate → fix → verify.
-- [Code Review](https://docs.anthropic.com/en/docs/claude-code/skills) — Automated code review at configurable effort levels (low/medium/high/ultra).
-- [Git Commit](https://docs.anthropic.com/en/docs/claude-code/skills) — Consistent commit messages following project conventions.
+
+> **Not listed here:** the skills that ship with Claude Code itself, and how to author your own `SKILL.md` — both are covered in the [official skills documentation](https://docs.anthropic.com/en/docs/claude-code/skills). This section is for community-maintained collections you can install.
 
 > **Contribute your skill:** Open a PR with your skill repo link and a one-line description.
 
@@ -109,14 +108,16 @@
 - **Token analytics** — Log tool call types to track usage patterns.
 - **RTK proxy** — Route all shell commands through [RTK](#tools--utilities) for token savings.
 
-## CLAUDE.md Templates
+## CLAUDE.md Essentials
 
-> `CLAUDE.md` files give Claude Code persistent project context. Place at repo root or `~/.claude/CLAUDE.md` for global config.
+> `CLAUDE.md` files give Claude Code persistent project context. Place at repo root or `~/.claude/CLAUDE.md` for global config. This section is written guidance, not a link list — there is nothing to install.
 
-- **Web App (Next.js)** — Tech stack, testing conventions, env var rules, deploy instructions.
-- **iOS App (Swift)** — Bundle ID, simulator launch commands, StoreKit testing notes, clean build reminders.
-- **Python Backend** — Virtual env setup, migration commands, linting config.
-- **Monorepo** — Per-package CLAUDE.md with shared root config.
+**What tends to be worth writing down, by project type:**
+
+- **Web app (Next.js)** — tech stack, testing conventions, env var rules, deploy instructions.
+- **iOS app (Swift)** — bundle ID, simulator launch commands, StoreKit testing notes, clean-build reminders.
+- **Python backend** — virtualenv setup, migration commands, linting config.
+- **Monorepo** — a per-package `CLAUDE.md` alongside a shared root config.
 
 **Key CLAUDE.md sections to include:**
 
@@ -193,7 +194,7 @@ git checkout -b feature/my-feature
 
 - **VS Code** — Install the [Claude Code extension](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) for in-editor access.
 - **JetBrains** — Available via JetBrains Marketplace for IntelliJ, WebStorm, PyCharm, etc.
-- **Neovim** — Community plugin: `claudecode.nvim` (see community links below).
+- **Neovim** — [claudecode.nvim](https://github.com/coder/claudecode.nvim), a community plugin by Coder that brings the Claude Code IDE integration into Neovim.
 - **Terminal** — Runs natively in any terminal. iTerm2 on macOS recommended for best experience.
 
 ## Agent SDK
@@ -212,7 +213,7 @@ git checkout -b feature/my-feature
 ## Tools & Utilities
 
 - [Agent Island](https://github.com/tristan666666/agent-island) — macOS notch companion for Claude/Codex sessions with live state display and auto-resume for selected long-running runs.
-- RTK (Rust Token Killer) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations. *(Repo not yet public)* `(Community)`
+- [RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations; `rtk gain` reports the savings. `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Local telemetry and recall graph for Claude Code sessions, tool calls, skills, and costs.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.

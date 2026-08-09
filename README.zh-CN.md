@@ -12,7 +12,7 @@
 - [MCP 服务器](#mcp-服务器)
 - [Skills 与斜杠命令](#skills-与斜杠命令)
 - [Hooks 与自动化](#hooks-与自动化)
-- [CLAUDE.md 模板](#claudemd-模板)
+- [CLAUDE.md 写法要点](#claudemd-写法要点)
 - [DESIGN.md — 给 Agent 的设计上下文](#designmd--给-agent-的设计上下文)
 - [提示词指南](#提示词指南)
 - [工作流](#工作流)
@@ -29,6 +29,7 @@
 
 - [Claude Code 文档](https://docs.anthropic.com/en/docs/claude-code/overview) — 官方文档，涵盖安装、功能与配置。
 - [Claude Code 更新日志](https://docs.anthropic.com/en/docs/claude-code/changelog) — 版本发布说明与新功能公告。
+- [Claude 插件目录](https://github.com/anthropics/claude-plugins-official) — Anthropic 官方维护的插件目录，用 `/plugin install <name>@claude-plugins-official` 安装。
 - [Model Context Protocol](https://modelcontextprotocol.io) — 支撑 Claude Code MCP 集成的开放协议。
 - [MCP 官方服务器](https://github.com/modelcontextprotocol/servers) — Anthropic 提供的参考 MCP 服务器实现。
 - [Claude Code 设置参考](https://docs.anthropic.com/en/docs/claude-code/settings) — `settings.json` 配置的完整参考。
@@ -47,21 +48,21 @@
 
 ### 数据与存储
 
-- [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — 只读访问 PostgreSQL 数据库。
-- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — 查询与检视 SQLite 数据库。
+- [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — 只读访问 PostgreSQL 数据库。已停止维护，仅作参考实现。
+- [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — 查询与检视 SQLite 数据库。已停止维护，仅作参考实现。
 - [Supabase](https://github.com/supabase-community/supabase-mcp) — 完整 Supabase 集成：数据库、认证、存储。
 
 ### 搜索与知识
 
-- [Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) — 通过 Brave Search API 进行网络与本地搜索。
+- [Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search) — 通过 Brave Search API 进行网络与本地搜索。已停止维护，仅作参考实现。
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) — 抓取网页内容并转为 Markdown。
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) — 跨会话持久化的知识图谱记忆。
 - [Context7](https://github.com/upstash/context7) — 将始终最新的库文档注入上下文。
 
 ### 生产力与协作
 
-- [Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) — 读取频道、发送消息、管理 Slack 工作区。
-- [Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) — 搜索与读取 Google Drive 文件。
+- [Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) — 读取频道、发送消息、管理 Slack 工作区。已停止维护，仅作参考实现。
+- [Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) — 搜索与读取 Google Drive 文件。已停止维护，仅作参考实现。
 - [Linear](https://github.com/jerhadf/linear-mcp-server) — 管理 Linear 的 issue、项目与迭代。
 - [Figma](https://github.com/GLips/Figma-Context-MCP) — 读取 Figma 设计，提取组件与样式。
 
@@ -71,10 +72,8 @@
 
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 的 Claude Code 技能集；`grill-me` 会在编码前反复追问、把 Agent 对齐到你的真实意图，另含 `to-spec`、`tdd`、`code-review` 与架构类技能。可用 `npx skills@latest add mattpocock/skills` 或插件市场安装。 `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 的技能框架，把 AI 编程纳入工程流程：brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查。通过 `/plugin install superpowers@claude-plugins-official` 安装。 `(Community)`
-- [TDD Workflow](https://docs.anthropic.com/en/docs/claude-code/skills) — 以技能强制执行 red-green-refactor 循环。
-- [Systematic Debugging](https://docs.anthropic.com/en/docs/claude-code/skills) — 结构化调试流程：复现 → 隔离 → 修复 → 验证。
-- [Code Review](https://docs.anthropic.com/en/docs/claude-code/skills) — 可配置力度（low/medium/high/ultra）的自动代码审查。
-- [Git Commit](https://docs.anthropic.com/en/docs/claude-code/skills) — 遵循项目规范的一致提交信息。
+
+> **这里不收录：** Claude Code 自带的技能，以及如何编写自己的 `SKILL.md` — 两者都在[官方 Skills 文档](https://docs.anthropic.com/en/docs/claude-code/skills)里。本分区只放可安装的社区技能集。
 
 > **贡献你的技能：** 提一个 PR，附上技能仓库链接与一句话描述。
 
@@ -109,14 +108,16 @@
 - **Token 分析** — 记录工具调用类型以追踪使用模式。
 - **RTK 代理** — 把所有 shell 命令经 [RTK](#工具与实用程序) 路由以节省 token。
 
-## CLAUDE.md 模板
+## CLAUDE.md 写法要点
 
-> `CLAUDE.md` 为 Claude Code 提供持久化的项目上下文。放在仓库根目录，或放 `~/.claude/CLAUDE.md` 作为全局配置。
+> `CLAUDE.md` 为 Claude Code 提供持久化的项目上下文。放在仓库根目录，或放 `~/.claude/CLAUDE.md` 作为全局配置。本分区是写法说明，不是链接清单——没有东西可以安装。
+
+**按项目类型，通常值得写下来的内容：**
 
 - **Web 应用（Next.js）** — 技术栈、测试规范、环境变量规则、部署说明。
 - **iOS 应用（Swift）** — Bundle ID、模拟器启动命令、StoreKit 测试注意事项、clean build 提醒。
 - **Python 后端** — 虚拟环境配置、迁移命令、lint 配置。
-- **Monorepo** — 每个包一份 CLAUDE.md，配合共享的根配置。
+- **Monorepo** — 每个包一份 `CLAUDE.md`，配合共享的根配置。
 
 **CLAUDE.md 值得包含的关键区块：**
 
@@ -193,7 +194,7 @@ git checkout -b feature/my-feature
 
 - **VS Code** — 安装 [Claude Code 扩展](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) 以在编辑器内使用。
 - **JetBrains** — 通过 JetBrains Marketplace 支持 IntelliJ、WebStorm、PyCharm 等。
-- **Neovim** — 社区插件 `claudecode.nvim`（见下方社区链接）。
+- **Neovim** — [claudecode.nvim](https://github.com/coder/claudecode.nvim)，Coder 出品的社区插件，把 Claude Code 的 IDE 集成带进 Neovim。
 - **终端** — 在任意终端原生运行。macOS 上推荐 iTerm2 以获得最佳体验。
 
 ## Agent SDK
@@ -212,7 +213,7 @@ git checkout -b feature/my-feature
 ## 工具与实用程序
 
 - [Agent Island](https://github.com/tristan666666/agent-island) — macOS 刘海伴侣，展示 Claude/Codex 会话实时状态，并对选定的长任务自动续跑。
-- RTK（Rust Token Killer） — CLI 代理，在冗长工具输出抵达 Claude 前先过滤，开发操作省 60–90% token。*（仓库尚未公开）* `(Community)`
+- [RTK（Rust Token Killer）](https://github.com/rtk-ai/rtk) — CLI 代理，在冗长工具输出抵达 Claude 前先过滤，开发操作省 60–90% token；`rtk gain` 可查看省了多少。 `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Claude Code 会话、工具调用、技能与成本的本地遥测与回溯图谱。
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — 覆盖各类别的 MCP 服务器综合清单。
 - [mcp.so](https://mcp.so) — MCP 服务器注册与发现平台。
