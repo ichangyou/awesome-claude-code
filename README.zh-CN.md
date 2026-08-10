@@ -212,7 +212,7 @@ git checkout -b feature/my-feature
 
 ## 工具与实用程序
 
-- [Agent Island](https://github.com/tristan666666/agent-island) — Claude Code 和 Codex 的开源状态伴侣，在 macOS 和 Windows 上显示实时会话状态、轮到你提醒与本地监控。
+- [Agent Island](https://github.com/tristan666666/agent-island) — Claude Code、Codex、Antigravity、Grok 与 Cursor 的开源状态伴侣，在 macOS 和 Windows 上显示实时会话状态、轮到你提醒，以及本机计算的用量与费用。
 - [RTK（Rust Token Killer）](https://github.com/rtk-ai/rtk) — CLI 代理，在冗长工具输出抵达 Claude 前先过滤，开发操作省 60–90% token；`rtk gain` 可查看省了多少。 `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Claude Code 会话、工具调用、技能与成本的本地遥测与回溯图谱。
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — 覆盖各类别的 MCP 服务器综合清单。
