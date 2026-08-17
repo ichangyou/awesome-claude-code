@@ -70,6 +70,7 @@
 
 > Community-built skills (slash commands) that extend Claude Code's built-in capabilities.
 
+- [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani's collection of 24 production-grade engineering skills organized by software lifecycle phase (define, plan, build, verify, review, ship); works across 70+ coding agents including Claude Code. `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock's Claude Code skill collection; the `grill-me` skill interrogates you to align on intent before coding, alongside `to-spec`, `tdd`, `code-review`, and architecture skills. Install via `npx skills@latest add mattpocock/skills` or the plugin marketplace. `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent's skills framework that runs AI coding through an engineering process: brainstorming, TDD, systematic debugging, plan writing, subagent-driven development, and code review. Installs via `/plugin install superpowers@claude-plugins-official`. `(Community)`
 

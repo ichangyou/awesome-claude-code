@@ -70,6 +70,7 @@
 
 > 社区构建的 Skills（斜杠命令），扩展 Claude Code 的内置能力。
 
+- [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani 出品的工程技能集，按软件生命周期阶段（定义、规划、构建、验证、评审、发布）组织 24 个生产级技能，支持 Claude Code 等 70+ 个编码 Agent。 `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 的 Claude Code 技能集；`grill-me` 会在编码前反复追问、把 Agent 对齐到你的真实意图，另含 `to-spec`、`tdd`、`code-review` 与架构类技能。可用 `npx skills@latest add mattpocock/skills` 或插件市场安装。 `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 的技能框架，把 AI 编程纳入工程流程：brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查。通过 `/plugin install superpowers@claude-plugins-official` 安装。 `(Community)`
 

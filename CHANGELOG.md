@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W33 (截至 2026-08-16)
+
+### 新增
+- [Skills & Slash Commands] [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani 的工程技能集，24 个按生命周期阶段组织的生产级技能，MIT 协议，实测 87,910 star。
+
+---
+
 ## 2026-W32 (截至 2026-08-09)
 
 > 补更：W31 断更一周，本次合并处理。本周主题是「补可信度」而非扩容——把 README 里违反自身 quality bar（每条必须有可点击有效链接、不收凑数条目）的地方清掉。
