@@ -58,6 +58,7 @@
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) — Fetch web content and convert it to Markdown.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) — Persistent knowledge graph memory across sessions.
 - [Context7](https://github.com/upstash/context7) — Always up-to-date library docs injected into context.
+- [Pocket Drives](https://github.com/RevList/pocket-drives-mcp) — Search peer-to-peer luxury, exotic, and EV rentals from independent hosts. Remote Streamable HTTP at https://pocketdrives.ai/mcp, no auth.
 
 ### Productivity & Collaboration
 
