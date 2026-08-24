@@ -12,6 +12,13 @@
 
 ---
 
+## 2026-W34 (截至 2026-08-23)
+
+### 新增
+- [Skills 与斜杠命令] [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — 74 个面向 Claude Code 与 Codex 的开源 Agent Skills，覆盖代码质量、AI 评测、设计、增长与应用发布工作流。
+
+---
+
 ## 2026-W33 (截至 2026-08-16)
 
 ### 新增
