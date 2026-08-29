@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W35 (截至 2026-08-30)
+
+### 新增
+- [Skills & Slash Commands] [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — Anthropic 员工 Thariq Shihipar 开发的技能，`/eli5 <主题>` 生成图多字少的 HTML 讲解页，已开源到社区插件市场（非 claude-plugins-official 官方市场）。
+
+---
+
 ## 2026-W33 (截至 2026-08-16)
 
 ### 新增
