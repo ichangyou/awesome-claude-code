@@ -73,6 +73,7 @@
 - [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani 出品的工程技能集，按软件生命周期阶段（定义、规划、构建、验证、评审、发布）组织 24 个生产级技能，支持 Claude Code 等 70+ 个编码 Agent。 `(Community)`
 - [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — 用 `/eli5 <主题>` 生成「大图 + 少文字」的 HTML 讲解页；由 Anthropic 内部员工开发，经社区插件市场分发。安装：`claude plugin marketplace add anthropics/claude-plugins-community`，再 `claude plugin install eli5@claude-community`。 `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 的 Claude Code 技能集；`grill-me` 会在编码前反复追问、把 Agent 对齐到你的真实意图，另含 `to-spec`、`tdd`、`code-review` 与架构类技能。可用 `npx skills@latest add mattpocock/skills` 或插件市场安装。 `(Community)`
+- [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — 面向 Claude Code 与 Codex 的开源 Agent Skills 合集，涵盖代码审查与 A–F 评级、AI 评测、CI 门禁、设计、文案、SEO 与应用发布。 `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 的技能框架，把 AI 编程纳入工程流程：brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查。通过 `/plugin install superpowers@claude-plugins-official` 安装。 `(Community)`
 
 > **这里不收录：** Claude Code 自带的技能，以及如何编写自己的 `SKILL.md` — 两者都在[官方 Skills 文档](https://docs.anthropic.com/en/docs/claude-code/skills)里。本分区只放可安装的社区技能集。
