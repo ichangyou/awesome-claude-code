@@ -71,6 +71,7 @@
 > Community-built skills (slash commands) that extend Claude Code's built-in capabilities.
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani's collection of 24 production-grade engineering skills organized by software lifecycle phase (define, plan, build, verify, review, ship); works across 70+ coding agents including Claude Code. `(Community)`
+- [Anything → NotebookLM](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) — Claude Code skill that pulls content from 15+ sources (WeChat articles, X threads, YouTube, podcasts, PDF/EPUB/Office files, images, audio) into Google NotebookLM and generates podcasts, slide outlines, mind maps, or quizzes. `(Chinese)` `(Community)`
 - [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — Turns `/eli5 <topic>` into a big-picture, few-words HTML artifact explainer; built by an Anthropic team member, distributed via the community plugin marketplace. Install: `claude plugin marketplace add anthropics/claude-plugins-community` then `claude plugin install eli5@claude-community`. `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock's Claude Code skill collection; the `grill-me` skill interrogates you to align on intent before coding, alongside `to-spec`, `tdd`, `code-review`, and architecture skills. Install via `npx skills@latest add mattpocock/skills` or the plugin marketplace. `(Community)`
 - [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — Open-source Agent Skills for Claude Code and Codex spanning code review and A–F grading, AI evals, CI gates, design, copy, SEO, and app shipping. `(Community)`
@@ -216,7 +217,9 @@ git checkout -b feature/my-feature
 ## Tools & Utilities
 
 - [Agent Island](https://github.com/tristan666666/agent-island) — Open-source status companion for Claude Code and Codex with live session state, your-turn alerts, and local monitoring on macOS and Windows.
+- [OpenDesign](https://github.com/nexu-io/open-design) — Local-first desktop app that turns Claude Code (and 20+ other agent CLIs, BYOK) into a design engine: prototypes, landing pages, dashboards, and slides exported as real HTML/PDF/PPTX/MP4 files. `(Community)`
 - [RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations; `rtk gain` reports the savings. `(Community)`
+- [Skills Manager](https://github.com/xingkongliang/skills-manager) — Desktop app that shows where each agent skill was loaded from, flags upstream updates, and manages skills across 50+ coding tools including Claude Code. `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Local telemetry and recall graph for Claude Code sessions, tool calls, skills, and costs.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.

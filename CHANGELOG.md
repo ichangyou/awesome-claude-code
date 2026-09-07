@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-W36 (截至 2026-09-06)
+
+### 新增
+- [Skills & Slash Commands] [Anything → NotebookLM](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) — Claude Code 技能，把公众号文章、X 长推、YouTube、播客、PDF/EPUB/Office 文件等 15+ 种来源导入 NotebookLM，生成播客 / PPT 大纲 / 思维导图 / Quiz。MIT，5.9k star。
+- [Tools & Utilities] [OpenDesign](https://github.com/nexu-io/open-design) — 本地优先的开源设计桌面应用，通过 BYOK 把 Claude Code 等 20+ 个 Agent CLI 当作设计引擎，产出 HTML/PDF/PPTX/MP4 真实文件。Apache-2.0。
+- [Tools & Utilities] [Skills Manager](https://github.com/xingkongliang/skills-manager) — 技能管理桌面应用，解决「技能从哪加载、全局/项目里埋了多少、上游更新不同步」三个问题，支持 50+ 编码工具。MIT，Rust。
+
+---
+
 ## 2026-W35 (截至 2026-08-30)
 
 ### 新增
