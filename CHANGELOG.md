@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W37 (截至 2026-09-13)
+
+### 新增
+- [Tools & Utilities] [YYLO](https://github.com/yylo-dev/yylo) — 面向编码 Agent 的命令行编排器：类型化任务、验证、合并与发布就绪边界；技能复制进 `.claude/skills`，`:sonnet`/`:opus` 别名支持 Anthropic 模型。MIT，59 star。
+
+---
+
 ## 2026-W36 (截至 2026-09-06)
 
 ### 新增

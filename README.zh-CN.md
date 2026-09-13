@@ -220,6 +220,7 @@ git checkout -b feature/my-feature
 - [OpenDesign](https://github.com/nexu-io/open-design) — 本地优先的桌面应用，把 Claude Code（以及 20+ 个 Agent CLI，BYOK）变成设计引擎：原型、落地页、仪表盘、幻灯片，导出为真实的 HTML/PDF/PPTX/MP4 文件。 `(Community)`
 - [RTK（Rust Token Killer）](https://github.com/rtk-ai/rtk) — CLI 代理，在冗长工具输出抵达 Claude 前先过滤，开发操作省 60–90% token；`rtk gain` 可查看省了多少。 `(Community)`
 - [Skills Manager](https://github.com/xingkongliang/skills-manager) — 桌面应用，显示每个 Agent 技能从哪个来源加载、上游有无更新，并在包括 Claude Code 在内的 50+ 编码工具间统一管理技能。 `(Community)`
+- [YYLO](https://github.com/yylo-dev/yylo) — 面向编码 Agent 的命令行编排器，提供类型化任务、验证、合并与发布就绪边界；自带 Agent 技能会复制到 `.claude/skills`，并通过 `:sonnet`/`:opus` 别名支持 Anthropic 模型。 `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Claude Code 会话、工具调用、技能与成本的本地遥测与回溯图谱。
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — 覆盖各类别的 MCP 服务器综合清单。
 - [mcp.so](https://mcp.so) — MCP 服务器注册与发现平台。

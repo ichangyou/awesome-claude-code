@@ -220,6 +220,7 @@ git checkout -b feature/my-feature
 - [OpenDesign](https://github.com/nexu-io/open-design) — Local-first desktop app that turns Claude Code (and 20+ other agent CLIs, BYOK) into a design engine: prototypes, landing pages, dashboards, and slides exported as real HTML/PDF/PPTX/MP4 files. `(Community)`
 - [RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk) — CLI proxy that filters verbose tool output before it reaches Claude, cutting token usage 60–90% on dev operations; `rtk gain` reports the savings. `(Community)`
 - [Skills Manager](https://github.com/xingkongliang/skills-manager) — Desktop app that shows where each agent skill was loaded from, flags upstream updates, and manages skills across 50+ coding tools including Claude Code. `(Community)`
+- [YYLO](https://github.com/yylo-dev/yylo) — Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries; copies its agent skills into `.claude/skills` and supports Anthropic models via `:sonnet`/`:opus` aliases. `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Local telemetry and recall graph for Claude Code sessions, tool calls, skills, and costs.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Comprehensive list of MCP servers across all categories.
 - [mcp.so](https://mcp.so) — MCP server registry and discovery.
