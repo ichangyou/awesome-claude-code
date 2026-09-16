@@ -58,6 +58,7 @@
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) — Fetch web content and convert it to Markdown.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) — Persistent knowledge graph memory across sessions.
 - [Context7](https://github.com/upstash/context7) — Always up-to-date library docs injected into context.
+- [ContextStream](https://github.com/contextstream/mcp-server) — Shared project context for AI coding agents: hosted MCP with code search, decisions, lessons, and plans
 
 ### Productivity & Collaboration
 
