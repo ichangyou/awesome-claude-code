@@ -1,0 +1,106 @@
+name: Suggest a resource
+description: Propose something for the list
+title: "Add: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This list stays useful because the bar is high. Entries are things that
+        have actually been used or read, not everything that exists.
+
+        One resource per issue.
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One sentence, in your own words
+      description: >
+        What it is and what problem it solves. Not the project's marketing copy,
+        not a feature list.
+    validations:
+      required: true
+
+  - type: textarea
+    id: used
+    attributes:
+      label: Have you used it? What for?
+      description: >
+        Be specific. "It has a lot of stars" and "it is popular" are not answers.
+        If you have not used it, say so — that is a fine answer, it just changes
+        how the suggestion is weighed.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this project?
+      description: Self-submissions are fine. Undisclosed ones are not.
+      options:
+        - "No"
+        - "Yes — I maintain it"
+        - "Yes — I work on it or for the company behind it"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Does it require an account or payment to evaluate?
+      options:
+        - "No — works without signup"
+        - "Free tier, paid beyond it"
+        - "Signup required before you can try it"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section does it belong in?
+      options:
+        - Official Resources
+        - MCP Servers
+        - Skills & Slash Commands
+        - Hooks & Automation
+        - CLAUDE.md Templates
+        - Prompting Guides
+        - Workflows
+        - IDE Integrations
+        - Agent SDK
+        - Tools & Utilities
+        - Tutorials & Videos
+        - Community
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: >
+            The link works, and the repository contains an actual implementation —
+            not only manifests, registry files, and a logo.
+          required: true
+        - label: >
+            If this is a paid or freemium product, I have said so above so it can
+            carry the `(Paid)` tag.
+          required: true
+
+  - type: textarea
+    id: anything_else
+    attributes:
+      label: Anything else
+      description: Optional. Limitations, caveats, who it is not for.
+    validations:
+      required: false
