@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W38 (截至 2026-09-20)
+
+### 新增
+- [Skills & Slash Commands] [ASC CLI Skills](https://github.com/rorkai/app-store-connect-cli-skills) — 25 个围绕 `asc`（App Store Connect CLI）的 Agent Skills，覆盖构建、TestFlight、元数据、提审、签名、截图与 Apple Ads；仓库同时是 Claude Code 插件市场（`asc@rorkai`）。MIT，1k star。`asc` 二进制需单独装，其 go.mod module path 仍是 `github.com/rudrankriyam/App-Store-Connect-CLI`。
+
+---
+
 ## 2026-W36 (截至 2026-09-06)
 
 ### 新增
