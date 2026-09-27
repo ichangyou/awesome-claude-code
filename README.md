@@ -58,6 +58,7 @@
 - [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) — Fetch web content and convert it to Markdown.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) — Persistent knowledge graph memory across sessions.
 - [Context7](https://github.com/upstash/context7) — Always up-to-date library docs injected into context.
+- [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) — Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp`.
 
 ### Productivity & Collaboration
 
