@@ -5,6 +5,15 @@
 
 ---
 
+## 2026-W39 (截至 2026-09-27)
+
+### 新增
+- [Skills & Slash Commands] [App Store ASO](https://github.com/TimBroddin/skills/tree/main/skills/app-store-aso) — Tim Broddin 的 Apple App Store 元数据技能，按 Apple 字符上限校验名称 / 副标题 / 关键词等，含截图文案策略。原独立仓库 `TimBroddin/app-store-aso-skill` 已标注 Moved，链接指向合并后的 `TimBroddin/skills`。MIT。
+- [Skills & Slash Commands] [ASO Skills](https://github.com/appeeky/aso-skills) — Appeeky 的 30+ 个 ASO 与 App 营销技能，`/aso-router` 统一入口，实时数据依赖 Appeeky API（部分技能需付费套餐）。2.1k star。安装命令仍用旧路径 `eronred/aso-skills`（GitHub 重定向到 `appeeky/aso-skills`）。
+- [Tools & Utilities] [OpenSEO](https://github.com/every-app/open-seo) — 开源 Semrush / Ahrefs 替代品，自带 MCP 服务器与 Agent Skills，支持 Claude Code；BYOK DataForSEO 按量付费。21k star。
+
+---
+
 ## 2026-W38 (截至 2026-09-20)
 
 ### 新增

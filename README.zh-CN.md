@@ -72,7 +72,9 @@
 
 - [Agent Skills](https://github.com/addyosmani/agent-skills) — Addy Osmani 出品的工程技能集，按软件生命周期阶段（定义、规划、构建、验证、评审、发布）组织 24 个生产级技能，支持 Claude Code 等 70+ 个编码 Agent。 `(Community)`
 - [Anything → NotebookLM](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) — Claude Code 技能，把 15+ 种来源（公众号文章、X 长推、YouTube、播客、PDF/EPUB/Office 文件、图片、音频）导入 Google NotebookLM，生成播客、PPT 大纲、思维导图或 Quiz。 `(Chinese)` `(Community)`
+- [App Store ASO](https://github.com/TimBroddin/skills/tree/main/skills/app-store-aso) — Tim Broddin 的 Apple App Store 元数据技能：App 名称、副标题、推广文本、描述、关键词、更新说明，全部按 Apple 字符上限校验，另含截图文案策略。安装：`npx skills add TimBroddin/skills --skill app-store-aso`。 `(Community)`
 - [ASC CLI Skills](https://github.com/rorkai/app-store-connect-cli-skills) — 25 个驱动 `asc`（App Store Connect CLI）的 Agent Skills：Xcode 构建、TestFlight、元数据同步、提审、签名、截图与 Apple Ads。仓库本身也是 Claude Code 插件市场 —— `claude plugin marketplace add rorkai/app-store-connect-cli-skills`，再 `claude plugin install asc@rorkai`。需另行安装 `asc` 二进制。 `(Community)`
+- [ASO Skills](https://github.com/appeeky/aso-skills) — Appeeky 出品的 30+ 个 ASO 与 App 营销技能（ASO 审计、关键词研究、元数据、竞品分析、截图、Apple Search Ads、App Store Connect 数据），以 `/aso-router` 为统一入口；实时 App Store 数据来自 Appeeky API。安装：`npx skills add eronred/aso-skills`。 `(Community)` `(Paid)`
 - [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — 用 `/eli5 <主题>` 生成「大图 + 少文字」的 HTML 讲解页；由 Anthropic 内部员工开发，经社区插件市场分发。安装：`claude plugin marketplace add anthropics/claude-plugins-community`，再 `claude plugin install eli5@claude-community`。 `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 的 Claude Code 技能集；`grill-me` 会在编码前反复追问、把 Agent 对齐到你的真实意图，另含 `to-spec`、`tdd`、`code-review` 与架构类技能。可用 `npx skills@latest add mattpocock/skills` 或插件市场安装。 `(Community)`
 - [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — 面向 Claude Code 与 Codex 的开源 Agent Skills 合集，涵盖代码审查与 A–F 评级、AI 评测、CI 门禁、设计、文案、SEO 与应用发布。 `(Community)`
@@ -219,6 +221,7 @@ git checkout -b feature/my-feature
 
 - [Agent Island](https://github.com/tristan666666/agent-island) — Claude Code 和 Codex 的开源状态伴侣，在 macOS 和 Windows 上显示实时会话状态、轮到你提醒与本地监控。
 - [OpenDesign](https://github.com/nexu-io/open-design) — 本地优先的桌面应用，把 Claude Code（以及 20+ 个 Agent CLI，BYOK）变成设计引擎：原型、落地页、仪表盘、幻灯片，导出为真实的 HTML/PDF/PPTX/MP4 文件。 `(Community)`
+- [OpenSEO](https://github.com/every-app/open-seo) — 开源的 Semrush / Ahrefs 替代品（关键词研究、排名追踪、竞品洞察、外链、站点审计），提供 MCP 服务器与 Agent Skills，让 Claude Code 直接读写你的 SEO 数据；自带 DataForSEO API Key 按量付费，或使用托管版。 `(Community)`
 - [RTK（Rust Token Killer）](https://github.com/rtk-ai/rtk) — CLI 代理，在冗长工具输出抵达 Claude 前先过滤，开发操作省 60–90% token；`rtk gain` 可查看省了多少。 `(Community)`
 - [Skills Manager](https://github.com/xingkongliang/skills-manager) — 桌面应用，显示每个 Agent 技能从哪个来源加载、上游有无更新，并在包括 Claude Code 在内的 50+ 编码工具间统一管理技能。 `(Community)`
 - [ax](https://github.com/Necmttn/ax) — Claude Code 会话、工具调用、技能与成本的本地遥测与回溯图谱。
