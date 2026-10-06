@@ -8,7 +8,8 @@
 
 ## Are you affiliated with this project?
 
-<!-- Required. Self-submissions are fine — undisclosed ones are not. -->
+<!-- Required. Self-submissions are fine if you actually use it — undisclosed or automated ones are not.
+     PRs opened by automated tools, AI agents, or distribution campaigns are closed without review. -->
 
 ## Checklist
 

@@ -36,6 +36,7 @@ Before submitting, confirm:
 
 - Unmaintained repos (no commits in 12+ months, unless historical value)
 - Self-promotion without genuine value to the community
+- Automated or bulk submissions (AI agents, distribution campaigns, the same pitch sent to many lists)
 - Generic AI tools not specifically useful with Claude Code
 - Paywalled content without a clear free tier or trial
 

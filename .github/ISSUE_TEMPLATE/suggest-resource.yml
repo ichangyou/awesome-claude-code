@@ -10,6 +10,9 @@ body:
 
         One resource per issue.
 
+        Submissions made by automated tools, AI agents, or distribution
+        campaigns (the same pitch sent to many lists) are closed without review.
+
   - type: input
     id: link
     attributes:
@@ -43,7 +46,9 @@ body:
     id: affiliation
     attributes:
       label: Are you affiliated with this project?
-      description: Self-submissions are fine. Undisclosed ones are not.
+      description: >
+        Self-submissions are fine if you actually use it. Undisclosed or
+        automated ones are not.
       options:
         - "No"
         - "Yes — I maintain it"
