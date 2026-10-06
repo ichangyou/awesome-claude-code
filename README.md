@@ -45,6 +45,7 @@
 - [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) — Read/write local files with configurable access controls.
 - [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) — Run Git operations, view diffs, and browse commit history.
 - [Playwright](https://github.com/microsoft/playwright-mcp) — Cross-browser automation by Microsoft.
+- [Sentry](https://github.com/getsentry/toolkit) — Sentry's hosted remote MCP server (OAuth, no local token) for querying issues, errors, traces, and releases from Claude Code. Install: `claude mcp add --transport http sentry https://mcp.sentry.dev/mcp`; a stdio mode covers self-hosted Sentry.
 
 ### Data & Storage
 
@@ -76,6 +77,7 @@
 - [ASC CLI Skills](https://github.com/rorkai/app-store-connect-cli-skills) — 25 Agent Skills that drive the `asc` App Store Connect CLI: Xcode builds, TestFlight, metadata sync, submissions, signing, screenshots, and Apple Ads. The repo doubles as a Claude Code marketplace — `claude plugin marketplace add rorkai/app-store-connect-cli-skills` then `claude plugin install asc@rorkai`. Requires the `asc` binary, installed separately. `(Community)`
 - [ASO Skills](https://github.com/appeeky/aso-skills) — Appeeky's 30+ ASO and app marketing skills (audit, keyword research, metadata, competitor analysis, screenshots, Apple Search Ads, App Store Connect metrics) with an `/aso-router` entry point; live App Store data comes from the Appeeky API. Install: `npx skills add eronred/aso-skills`. `(Community)` `(Paid)`
 - [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — Turns `/eli5 <topic>` into a big-picture, few-words HTML artifact explainer; built by an Anthropic team member, distributed via the community plugin marketplace. Install: `claude plugin marketplace add anthropics/claude-plugins-community` then `claude plugin install eli5@claude-community`. `(Community)`
+- [Mufeng AI Skills](https://github.com/ichangyou/mf-ai-skills) — This list maintainer's 16 skills for Claude Code and Codex: Chinese tech writing and WeChat publishing, weekly/monthly reports, book notes, and iOS workflows (visual regression, release audit, parallel root-cause debugging). `(Chinese)` `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock's Claude Code skill collection; the `grill-me` skill interrogates you to align on intent before coding, alongside `to-spec`, `tdd`, `code-review`, and architecture skills. Install via `npx skills@latest add mattpocock/skills` or the plugin marketplace. `(Community)`
 - [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — Open-source Agent Skills for Claude Code and Codex spanning code review and A–F grading, AI evals, CI gates, design, copy, SEO, and app shipping. `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent's skills framework that runs AI coding through an engineering process: brainstorming, TDD, systematic debugging, plan writing, subagent-driven development, and code review. Installs via `/plugin install superpowers@claude-plugins-official`. `(Community)`

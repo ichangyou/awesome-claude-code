@@ -7,6 +7,10 @@
 
 ## 2026-W41 (截至 2026-10-11)
 
+### 新增
+- [MCP / Development] [Sentry](https://github.com/getsentry/toolkit) — Sentry 官方托管的远程 MCP，OAuth 授权、本地不存 token，在 Claude Code 里直接查 issue / trace / release；自建 Sentry 走 stdio 模式。
+- [Skills & Slash Commands] [Mufeng AI Skills](https://github.com/ichangyou/mf-ai-skills) — 本清单维护者自己的 16 个 Claude Code / Codex 技能（中文写作与公众号发布、周报月报、读书笔记、iOS 工程流程）。MIT。
+
 ### 更新 / 修正
 - [贡献规则] Issue 模板、PR 模板与贡献指南新增一条：由自动化工具、AI agent 或推广活动批量提交的投稿直接关闭；作者自荐仍欢迎，但须实际用过并如实披露。
 - [失效链接] README 底部「贡献指南」链接指向不存在的 `CONTRIBUTING.md`，已将 `awesome-claude-code-CONTRIBUTING.md` 重命名为 `CONTRIBUTING.md`，中英文 README 链接恢复有效。

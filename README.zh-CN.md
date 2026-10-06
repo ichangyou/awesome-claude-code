@@ -45,6 +45,7 @@
 - [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) — 读写本地文件，可配置访问控制。
 - [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) — 执行 Git 操作、查看 diff、浏览提交历史。
 - [Playwright](https://github.com/microsoft/playwright-mcp) — 微软出品的跨浏览器自动化。
+- [Sentry](https://github.com/getsentry/toolkit) — Sentry 官方托管的远程 MCP 服务器（OAuth 授权，本地不存 token），在 Claude Code 里查询 issue、错误、trace 与 release。安装：`claude mcp add --transport http sentry https://mcp.sentry.dev/mcp`；自建 Sentry 可用 stdio 模式。
 
 ### 数据与存储
 
@@ -76,6 +77,7 @@
 - [ASC CLI Skills](https://github.com/rorkai/app-store-connect-cli-skills) — 25 个驱动 `asc`（App Store Connect CLI）的 Agent Skills：Xcode 构建、TestFlight、元数据同步、提审、签名、截图与 Apple Ads。仓库本身也是 Claude Code 插件市场 —— `claude plugin marketplace add rorkai/app-store-connect-cli-skills`，再 `claude plugin install asc@rorkai`。需另行安装 `asc` 二进制。 `(Community)`
 - [ASO Skills](https://github.com/appeeky/aso-skills) — Appeeky 出品的 30+ 个 ASO 与 App 营销技能（ASO 审计、关键词研究、元数据、竞品分析、截图、Apple Search Ads、App Store Connect 数据），以 `/aso-router` 为统一入口；实时 App Store 数据来自 Appeeky API。安装：`npx skills add eronred/aso-skills`。 `(Community)` `(Paid)`
 - [ELI5](https://github.com/anthropics/claude-plugins-community/tree/main/eli5) — 用 `/eli5 <主题>` 生成「大图 + 少文字」的 HTML 讲解页；由 Anthropic 内部员工开发，经社区插件市场分发。安装：`claude plugin marketplace add anthropics/claude-plugins-community`，再 `claude plugin install eli5@claude-community`。 `(Community)`
+- [Mufeng AI Skills](https://github.com/ichangyou/mf-ai-skills) — 本清单维护者的 16 个 Claude Code / Codex 技能：中文技术写作与公众号发布、周报/月报、读书笔记，以及 iOS 工程流程（视觉回归、上架审计、并行根因排查）。 `(Chinese)` `(Community)`
 - [Skills for Real Engineers](https://github.com/mattpocock/skills) — Matt Pocock 的 Claude Code 技能集；`grill-me` 会在编码前反复追问、把 Agent 对齐到你的真实意图，另含 `to-spec`、`tdd`、`code-review` 与架构类技能。可用 `npx skills@latest add mattpocock/skills` 或插件市场安装。 `(Community)`
 - [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) — 面向 Claude Code 与 Codex 的开源 Agent Skills 合集，涵盖代码审查与 A–F 评级、AI 评测、CI 门禁、设计、文案、SEO 与应用发布。 `(Community)`
 - [Superpowers](https://github.com/obra/superpowers) — Jesse Vincent 的技能框架，把 AI 编程纳入工程流程：brainstorming、TDD、系统化调试、写计划、子代理开发、代码审查。通过 `/plugin install superpowers@claude-plugins-official` 安装。 `(Community)`
