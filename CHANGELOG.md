@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-W43 (截至 2026-10-25)
+
+### 新增
+- [Skills & Slash Commands] [Emil Kowalski's Skills](https://github.com/emilkowalski/skills) — 前 Vercel / Linear 工程师 Emil Kowalski 的设计工程技能集，主打 UI 动效：find-animation-opportunities（找缺失的动效）、improve-animations（审查并输出可执行改进计划）、review-animations（严格审查，仅手动调用）、animation-vocabulary（大白话转动效术语）。48.5k star，MIT。
+- [Skills & Slash Commands] [huashu-motion](https://github.com/alchaincyf/huashu-motion) — alchaincyf 的动效 / 宣传片技能，让 coding agent 以代码形式产出产品发布片与解说视频，可指着画面改。1.3k star，MIT。
+
+---
+
 ## 2026-W41 (截至 2026-10-11)
 
 ### 新增
