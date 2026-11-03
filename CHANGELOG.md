@@ -5,6 +5,13 @@
 
 ---
 
+## 2026-W45 (截至 2026-11-03)
+
+### 新增
+- [Skills & Slash Commands] [baoyu-design](https://github.com/JimLiu/baoyu-design) — 从 INBOX 收录的社区技能集，让 Claude Code / Codex 在本地生成并编辑设计画布、幻灯片、设计系统与数据仪表盘；已阅读上游文档核实能力，未运行技能。
+
+---
+
 ## 2026-W43 (截至 2026-10-25)
 
 ### 新增
