@@ -52,6 +52,7 @@
 - [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — Read-only PostgreSQL database access. No longer maintained — reference implementation only.
 - [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — Query and inspect SQLite databases. No longer maintained — reference implementation only.
 - [Supabase](https://github.com/supabase-community/supabase-mcp) — Full Supabase integration: database, auth, storage.
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) — Live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets. MCP endpoint: https://dchub.cloud/mcp (94 tools, free to start). Connect: https://dchub.cloud/connect?utm_source=ichangyou-awesome-claude-code&utm_medium=listing&utm_campaign=directories
 
 ### Search & Knowledge
 
