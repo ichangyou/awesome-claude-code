@@ -52,6 +52,7 @@
 - [PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — 只读访问 PostgreSQL 数据库。已停止维护，仅作参考实现。
 - [SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) — 查询与检视 SQLite 数据库。已停止维护，仅作参考实现。
 - [Supabase](https://github.com/supabase-community/supabase-mcp) — 完整 Supabase 集成：数据库、认证、存储。
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) — 数据中心选址的实时数据层。Data Center Power Index（DCPI）每日评估 300+ 市场电网供电可用性。MCP 端点：https://dchub.cloud/mcp（94 个工具，免费起步）。连接页：https://dchub.cloud/connect?utm_source=ichangyou-awesome-claude-code&utm_medium=listing&utm_campaign=directories
 
 ### 搜索与知识
 
